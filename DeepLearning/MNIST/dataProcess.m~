@@ -1,0 +1,14 @@
+close all;
+clear all;
+clc;
+
+data = csvread('./Data/train.csv',1,1);
+
+[a, b, l, n] = size(X);
+
+
+X_train = double(X_train)/255 - 0.5;
+
+y_train = y - 1; 
+
+save('MNIST_data.mat','X_train','y_train');
