@@ -5,6 +5,9 @@ import sys
 salesTotal = 0
 oldKey = None
 
+# None
+# The sole value of types.NoneType. None is frequently used to represent the absence of a value, as when default arguments are not passed to a function.
+
 # Loop around the data
 # It will be in the format key\tval
 # Where key is the store name, val is the sale amount
